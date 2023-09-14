@@ -8,7 +8,7 @@ function Navbar() {
      <img src='https://beamishtech.com/staging/wp-content/uploads/2022/03/logo.png' alt='' />
      <nav className={styles.navItems}>
         <ul>
-            <Link to="" >all services</Link >
+            <Link to="/services" >all services</Link >
             <Link to="" >work</Link >
             <Link to="" > our story</Link >
             <Link to="" >careers</Link >
