@@ -14,8 +14,8 @@
 .swiper-wrapper{
     display: flex;
     overflow-x: auto !important;
-   
     width: 80%;
+
 }
 .swiper-wrapper::-webkit-scrollbar {
   width:0;
@@ -42,7 +42,8 @@
   border-radius: 15px;
   box-shadow: 2px 2px 2px;
   opacity: 0.7;
-  transform: scale3d(1.5s);
+  /* transform: scale3d(1.5s); */
+  transform: translateY(-20px);
 }
 
 .growth_single img {
@@ -190,9 +191,72 @@ text-align: center;
 .awards{
     background-image: url("https://www.moburst.com/wp-content/themes/layer-start-theme-child/assets/images/background.png");
    color:  white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.awards_title{
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-weight: 300;
+
+}
+.awards_contianer{
+ 
+  width: 90%;
+}
+.showcase{
+  margin-top: -120px;
+}
+.showcase img{
+  object-fit:contain ;
 }
 .swiper_awardsSwiper{
     display: flex;
     justify-content: center;
     align-items: baseline;
+}
+.awards_single-wrapper{
+ 
+  margin: 20px;
+  width: 220px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+ padding: 15px;
+}
+.awards_single-logo{
+  object-fit: contain;
+  width: 70%;
+  margin-left: 10px;
+}
+.awards_single-standCon{
+  width: 80%;
+  height: 50%;
+
+ margin-right: 20px !important;
+}
+.awards_single-stand{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  margin-right: 10px;
+}
+.awards_single-description{
+margin-top: -150px;
+margin-left: 20px;
+color:  gray;
+width: 140px;
+text-align: center;
+}
+.awards .awards_container .swiper-wrapper{
+  transition-duration: 0ms;
+  transform: matrix3d(-8418.6px , 0px , 0px);
+  transition-timing-function: linear;
+}
+.swiper-wrapper{
+  
 }

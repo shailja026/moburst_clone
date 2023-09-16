@@ -6,10 +6,13 @@ import bg from "../assets/backgraound.mp4";
 import leaderVideo from "../assets/advertisement.mp4";
 import infinity_loop from "../assets/Infinty-Loop-Desktop-2.mp4";
 import "../Css/home.css";
+import Form from "../components/Form";
+import Footer from "../components/Footer";
 function Home() {
   return (
-    <div className={StyleSheet.HomePage}>
+    <div classNameName={StyleSheet.HomePage}>
       <Navbar />
+      {/* background video */}
       <div className={styels.videos}>
         <video autoPlay loop muted src={bg} />
         <div className={styels.slider}>
@@ -170,6 +173,7 @@ function Home() {
           <button className={styels.btn}>I WANT TO GROW</button>
         </div>
       </div>
+      {/* partners slide */}
       <div className={styels.leader_section}>
         <div className={styels.leader_content}>
           <h1>How to become your category leader</h1>
@@ -636,556 +640,557 @@ function Home() {
       </div>
 
       {/* award section */}
-      <div class="awards">
-        <h2 class="awards_title hide">
-          <span class="animation-wrapper">
-            <span class="letters">Our awards</span>
+      <div className="awards">
+        <h2 className="awards_title hide">
+          <span className="animation-wrapper">
+            <span className="letters">Our awards</span>
           </span>
         </h2>
-        <div class="awards_contianer">
-          <div class="swiper_awardsSwiper">
-            <div class="swiper-wrapper ">
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+        <div className="awards_contianer">
+          <div className="swiper_awardsSwiper">
+            <div className="swiper-wrapper ">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2022/10/Adweeks-Fastest-Growing.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       Adweek’s Fastest Growing Agencies of 2022
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2022/05/smarties-award-program_optimized.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       Gold Award for Product/Service Launch
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2023/06/Bitmap-1.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       Top User Acquisition Companies in 2023
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2022/05/smarties-award-program_optimized.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       Bronze Award for Short or Long Form Video
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2022/05/top-mobile-app-development-companiesv_optimized.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       Top Mobile App Development Company
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2022/05/buissness-of-aps-_optimized.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       2020 Top App Marketing Companies
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2022/05/mobile-app-daily_optimized.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       2021 Top App Development Companies for Start-ups
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2022/05/top-app-install-ad-platforms_optimized-2.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       2019 Top App Install Ad Platforms
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2022/05/best-app-marketing-companies_optimized.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       2020 Best App Marketing Companies
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2022/05/top-b2b-companies-clutch_optimized.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       2020 Top B2B Companies
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2022/05/app-leader-of-the-year_optimized.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       2021 App Leader of the Year
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2022/06/effective-mobile-winner_optimized-1-1.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       2019 Effective Mobile Marketing Awards
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2022/06/top-influencer-marketing-2022_optimized.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       2022 Top Influencer Marketing Company
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2022/06/top-app-marketing-companies-2022_optimized.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       2022 Top App Marketing Company
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2023/05/growth_marketing_optimized.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       2022 Top Growth Marketing Agencies
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2022/07/masterclassing-awards-2022-winner-v2_optimized.png"
-                    alt
+                    alt=""
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       2022 MOST EFFECTIVE VIDEO CAMPAIGN
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2022/07/masterclassing-awards-2022-winner-v2_optimized.png"
-                    alt
+                    alt=""
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       2022 MOST EFFECTIVE MOBILE CAMPAIGN
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2022/07/the-drum-awards_Marketing_optimized.png"
-                    alt
+                    alt=""
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       2022 DRUM AWARD MARKETING FINALIST
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2023/05/acquisition.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       2022 Top User Acquisition Companies
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2022/07/the_telly_awards_gold.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       2022 TELLY AWARDS GOLD WINNER
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2023/05/TikTok-1.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       2022 Top TikTiok Marketing Companies
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2023/05/App-Store-Optimization.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       2022 Top App Store Optimization Companies
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2023/05/Resolute-Nyx-award-1-1.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       #2 Top 10 Agencies of the Year
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2022/11/ANOTHER_AWARD.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       2022 Effective Mobile Marketing Awards
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2023/05/clutch-1000-social-1.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       Top 1000 Global Company in 2022
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide awards_single">
-                <div class="awards_single-wrapper">
+              <div className="swiper-slide awards_single">
+                <div className="awards_single-wrapper">
                   <img
-                    class="awards_single-logo"
+                    className="awards_single-logo"
                     src="https://www.moburst.com/wp-content/uploads/2023/05/clutch-2022-1.png"
                     alt
                     loading="lazy"
                   />
-                  <div class="awards_single-standCon">
+                  <div className="awards_single-standCon">
                     <img
-                      class="awards_single-stand"
+                      className="awards_single-stand"
                       src="https://www.moburst.com/wp-content/uploads/2022/03/stand.png"
                       alt="stand"
                       loading="lazy"
                     />
-                    <div class="awards_single-description">
+                    <div className="awards_single-description">
                       Top Advertising & Marketing Agencies in 2022
                     </div>
                   </div>
@@ -1194,7 +1199,13 @@ function Home() {
             </div>
           </div>
         </div>
+        <div className="showcase">
+          <img src="https://www.moburst.com/wp-content/uploads/2022/03/show.png" alt="" />
+        </div>
       </div>
+
+      <Form />
+      <Footer />
     </div>
   );
 }
